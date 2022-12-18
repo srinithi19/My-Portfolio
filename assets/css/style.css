@@ -6,14 +6,17 @@
 }
 
 html {
-    background-image: linear-gradient(lightgrey,lightblue);
+    /* background-image: linear-gradient(lightgrey,lightblue); */
+    background-color: lightgrey;
+    scroll-behavior: smooth;
 
 }
+
 
 /* to the content of html page */
 body {
     /* background-color: rgb(199, 188, 188); */
-    background-image: linear-gradient(lightgrey,lightblue);
+    /* background-image: linear-gradient(lightgrey,lightblue); */
     line-height: 1.5;
 }
 
@@ -106,7 +109,7 @@ footer div a {
     position: relative;
     align-items: center;
     flex-wrap: wrap;
-    background-image: linear-gradient(lightgrey,lightblue);
+    /* background-image: linear-gradient(lightgrey,lightblue); */
 
 }
 
@@ -191,6 +194,7 @@ footer div a {
     font-weight: bold;
     opacity: 0;
 }
+
 .title {
     position: relative;
     border-style: none;
@@ -216,7 +220,7 @@ footer {
     }
 }
   
-  /* Cards are stacked on top of each other at 768px or smaller */
+/* projects are stacked on top of each other at 768px or smaller */
 @media screen and (max-width: 768px) {
     .project-container {
       width: 100%;
