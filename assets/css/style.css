@@ -38,6 +38,7 @@ header {
 
 }
 
+/* font size for header tag */
 h1 {
     font-size: 50px;
 }
@@ -98,6 +99,8 @@ footer div a {
     text-decoration: underline;
 }
 
+/* setting project cards as flex container */
+
 .container {
     display: flex;
     position: relative;
@@ -129,6 +132,7 @@ footer div a {
 
 }
 
+/* setting backgrounf image for all projects */
 .project1 {
     background: url("https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200922214602/7-Code-Refactoring-Techniques-in-Software-Engineering.png");
     background-repeat: no-repeat;
@@ -162,7 +166,7 @@ footer div a {
 
 }
 
-
+/* on hover on projects, display the info */
 .project-container:hover,
 .project-container:focus-within,
 .project-container:active {
@@ -175,6 +179,7 @@ footer div a {
   opacity: 1;
 }
  
+/* project info and links */
 .info {
     display: flex;
     flex-direction: column;
@@ -186,6 +191,16 @@ footer div a {
     font-weight: bold;
     opacity: 0;
 }
+.title {
+    position: relative;
+    border-style: none;
+    justify-content: center;
+    border-radius: 1.5rem;
+
+    /* margin-left: 450px;
+    margin-right: 450px; */
+}
+
 
 footer {
     display: flex;
@@ -193,7 +208,7 @@ footer {
 }
 
 
-
+/* for adaptability to various screen sizes */
 @media screen and (max-width: 992px) {
     .project-container {
       width: 50%;
@@ -207,11 +222,4 @@ footer {
     }
 }
 
-.title {
-    position: relative;
-    border-style: none;
-    justify-content: center;
-    /* margin-left: 450px;
-    margin-right: 450px; */
-}
 
