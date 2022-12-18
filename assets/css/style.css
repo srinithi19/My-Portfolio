@@ -3,6 +3,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    letter-spacing:1px;
 }
 
 html {
@@ -36,7 +37,7 @@ header {
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     background-color: #1b3d3f;
 
 }
@@ -137,7 +138,7 @@ footer div a {
 
 /* setting backgrounf image for all projects */
 .project1 {
-    background: url("https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200922214602/7-Code-Refactoring-Techniques-in-Software-Engineering.png");
+    background: url("https://www.netsolutions.com/insights/wp-content/uploads/2021/05/code-refactoring-kpis.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: 75%;
@@ -148,7 +149,7 @@ footer div a {
 
 }
 .project2 {
-    background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Placeholder_view_vector.svg/681px-Placeholder_view_vector.svg.png?20220519031949");
+    background: url("https://www.onlinecoursereport.com/wp-content/uploads/2020/07/shutterstock_394793860-1024x784.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width:45%;
@@ -159,7 +160,7 @@ footer div a {
 }
 
 .project3 {
-    background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Placeholder_view_vector.svg/681px-Placeholder_view_vector.svg.png?20220519031949");
+    background: url("https://www.onlinecoursereport.com/wp-content/uploads/2020/07/shutterstock_394793860-1024x784.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: 45%;
@@ -201,6 +202,7 @@ footer div a {
     justify-content: center;
     border-radius: 1.5rem;
     margin-top: -10px;
+    font-size: 20px;
 
     /* margin-left: 450px;
     margin-right: 450px; */
